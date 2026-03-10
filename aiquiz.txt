@@ -1,0 +1,41 @@
+print("AI QUIZ")
+
+name = input("Enter your name: ")
+
+score = 0
+
+# Question 1
+a = input("1. What does AI stand for?\n a) Artificial Intelligence\n b) Automatic Internet\n c) Applied Information\n d) Advanced Interface\nAnswer: ")
+if a == "a":
+    score += 1
+
+# Question 2
+a = input("2. Who is the father of AI?\n a) Alan Turing\n b) John McCarthy\n c) Elon Musk\n d) Bill Gates\nAnswer: ")
+if a == "b":
+    score += 1
+
+# Question 3
+a = input("3. Which language is widely used in AI?\n a) Python\n b) HTML\n c) CSS\n d) Java\nAnswer: ")
+if a == "a":
+    score += 1
+
+# Question 4
+a = input("4. What does NLP stand for?\n a) Natural Language Processing\n b) Network Link Program\n c) New Logic Process\n d) Neural Link Program\nAnswer: ")
+if a == "a":
+    score += 1
+
+# Question 5
+a = input("5. ChatGPT is created by?\n a) Google\n b) Apple\n c) OpenAI\n d) IBM\nAnswer: ")
+if a == "c":
+    score += 1
+
+print("\nYour Score:", score, "/5")
+
+# Certificate
+print("\nCERTIFICATE")
+print("This certificate is given to:", name)
+print("For completing the AI Quiz")
+print("Score:", score, "/5")
+
+# Thank you message
+print("\nThank you for participating in the AI Quiz!")
